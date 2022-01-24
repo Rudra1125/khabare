@@ -92,7 +92,7 @@ const News =(props)=>  {
     
     return (
       <>
-        <h1 style={{ margin: "35px 0px" ,marginTop:'90px'}} className="text-center">
+        <h1 style={{ margin: "35px 0px" ,marginTop:'90px',color:'white'}} className="text-center">
           Khabare-Top Headlines On{" "}
           {captalizeFirstLetter(props.category)}
         </h1>
